@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account information" xml:space="preserve">
+    <value>Informações da Conta</value>
+  </data>
+  <data name="Add balance" xml:space="preserve">
+    <value>Adicionar saldo</value>
+  </data>
+  <data name="Add Voucher" xml:space="preserve">
+    <value>Adicionar voucher</value>
+  </data>
+  <data name="After payment, the balance will be added to your account automatically" xml:space="preserve">
+    <value>Após o pagamento o saldo será adicionado na sua conta automaticamente</value>
+  </data>
+  <data name="All vouchers have already been used" xml:space="preserve">
+    <value>Todos os voucher já foram usados</value>
+  </data>
+  <data name="APPs below" xml:space="preserve">
+    <value>APPs abaixo</value>
+  </data>
+  <data name="available units" xml:space="preserve">
+    <value>unidades disponíveis</value>
+  </data>
+  <data name="Balance added successfully" xml:space="preserve">
+    <value>Saldo adicionado com sucesso</value>
+  </data>
+  <data name="Buy with ninja bot" xml:space="preserve">
+    <value>Compre com o ghost bot</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Change service" xml:space="preserve">
+    <value>Alterar serviço</value>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Canal</value>
+  </data>
+  <data name="Choose how much you want to add to your balance" xml:space="preserve">
+    <value>Escolha quanto você deseja adicionar ao seu saldo</value>
+  </data>
+  <data name="Choose which APP you want to reactivate" xml:space="preserve">
+    <value>Escolha qual APP deseja reativar</value>
+  </data>
+  <data name="Choose which number you want to repurchase" xml:space="preserve">
+    <value>Escolha qual número você deseja recomprar</value>
+  </data>
+  <data name="Choose which server you want to receive SMS" xml:space="preserve">
+    <value>Escolha qual servidor você deseja receber SMS</value>
+  </data>
+  <data name="Choose which service you want to receive SMS" xml:space="preserve">
+    <value>Escolha para qual serviço você deseja receber SMS</value>
+  </data>
+  <data name="Click on it to copy" xml:space="preserve">
+    <value>Clique em cima dele para copiar</value>
+  </data>
+  <data name="Click on one of the countries below to change the service country" xml:space="preserve">
+    <value>Clique em um dos países abaixo para alterar o país do serviço</value>
+  </data>
+  <data name="Click on the link below to copy and paste into your bank to make the payment" xml:space="preserve">
+    <value>Clique no link abaixo para copiar e colar em seu banco para efetuar o pagamento</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="countrys" xml:space="preserve">
+    <value>paises</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Atual</value>
+  </data>
+  <data name="Don't forget to join our channel and invite your friends, the more friends you have, the more vouchers are released on our channel!" xml:space="preserve">
+    <value>Não se esqueça de entrar no nosso canal e chamar seus amigos, quanto mais amigos, mais vouchers são liberados no nosso canal!</value>
+  </data>
+  <data name="Enter voucher code" xml:space="preserve">
+    <value>Insira o código do voucher</value>
+  </data>
+  <data name="Expired time" xml:space="preserve">
+    <value>Tempo expirado</value>
+  </data>
+  <data name="first page" xml:space="preserve">
+    <value>primeira página</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="Hello, {{name}}! Welcome to!" xml:space="preserve">
+    <value>Olá, {{name}}! Seja bem vindo(a)!</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="I'm your digital ninja to send SMS from different apps and services" xml:space="preserve">
+    <value>Sou seu assistente digital para enviar SMS de diversos apps e serviços</value>
+  </data>
+  <data name="Insufficient funds" xml:space="preserve">
+    <value>Saldo insuficiente</value>
+  </data>
+  <data name="Invalid voucher" xml:space="preserve">
+    <value>Voucher inválido</value>
+  </data>
+  <data name="last page" xml:space="preserve">
+    <value>última página</value>
+  </data>
+  <data name="Link expires in 15 minutes" xml:space="preserve">
+    <value>O link expira em 15 minutos</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Menssagem</value>
+  </data>
+  <data name="minutes" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="My profile" xml:space="preserve">
+    <value>Meu perfil</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="next page" xml:space="preserve">
+    <value>próxima página</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="Number unavailable for rent" xml:space="preserve">
+    <value>Número indisponível</value>
+  </data>
+  <data name="Numbers below" xml:space="preserve">
+    <value>Números abaixo</value>
+  </data>
+  <data name="Only" xml:space="preserve">
+    <value>Somente</value>
+  </data>
+  <data name="Options Below" xml:space="preserve">
+    <value>Opções Abaixo</value>
+  </data>
+  <data name="PIX copy and paste" xml:space="preserve">
+    <value>PIX copia e cola</value>
+  </data>
+  <data name="Policy and Terms" xml:space="preserve">
+    <value>Política e Termos</value>
+  </data>
+  <data name="previous page" xml:space="preserve">
+    <value>página anterior</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Comprar</value>
+  </data>
+  <data name="Read before recharging" xml:space="preserve">
+    <value>Leia antes de recarregar</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="Receive SMS" xml:space="preserve">
+    <value>Receber SMS</value>
+  </data>
+  <data name="Repurchase Number" xml:space="preserve">
+    <value>Recomprar Nº</value>
+  </data>
+  <data name="Repurchase SMS" xml:space="preserve">
+    <value>SMS Rápido</value>
+  </data>
+  <data name="Resend the SMS to get a new activation" xml:space="preserve">
+    <value>Reenvie o SMS para obter uma nova ativação</value>
+  </data>
+  <data name="Retrieved a voucher" xml:space="preserve">
+    <value>Recuperou um voucher</value>
+  </data>
+  <data name="Select another number to receive the SMS" xml:space="preserve">
+    <value>Selecione outro número para receber o SMS</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Serviço</value>
+  </data>
+  <data name="Service value" xml:space="preserve">
+    <value>Valor do serviço</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Suporte</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Termos</value>
+  </data>
+  <data name="The generated code is not the random key, but rather a copy and paste code for the pix function" xml:space="preserve">
+    <value>O código gerado não é a chave aleatória, mas sim um código de copiar e colar para PIX</value>
+  </data>
+  <data name="There are no numbers available at the moment, please try again in 60 minutes" xml:space="preserve">
+    <value>Não há numeros disponíveis para este serviço neste país no momento, selecione outro país ou tente novamente daqui 1 hora</value>
+  </data>
+  <data name="This request has expired" xml:space="preserve">
+    <value>Esta solicitação expirou</value>
+  </data>
+  <data name="To copy CLICK on the link" xml:space="preserve">
+    <value>Para copiar CLIQUE no link</value>
+  </data>
+  <data name="To re-purchase a number you must have previously received an SMS" xml:space="preserve">
+    <value>Para recomprar um número é necessário ter recebido previamente um SMS</value>
+  </data>
+  <data name="to receive credits from" xml:space="preserve">
+    <value>para receber créditos de</value>
+  </data>
+  <data name="Try again" xml:space="preserve">
+    <value>Tentar novamente</value>
+  </data>
+  <data name="Try again later" xml:space="preserve">
+    <value>Tente mais tarde</value>
+  </data>
+  <data name="Use the code" xml:space="preserve">
+    <value>Utilize o código</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="User Id" xml:space="preserve">
+    <value>Id do Usuário</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Voucher added successfully" xml:space="preserve">
+    <value>Vale adicionado com sucesso</value>
+  </data>
+  <data name="Voucher expired" xml:space="preserve">
+    <value>Voucher expirado</value>
+  </data>
+  <data name="VOUCHER OF THE DAY" xml:space="preserve">
+    <value>VOUCHER DO DIA</value>
+  </data>
+  <data name="Waiting time" xml:space="preserve">
+    <value>Tempo de espera</value>
+  </data>
+  <data name="Welcome to" xml:space="preserve">
+    <value>Seja bem vindo(a)</value>
+  </data>
+  <data name="You do not yet have leased numbers that have successfully received SMS" xml:space="preserve">
+    <value>Você ainda não possui números alugados que tenham recebido SMS com sucesso</value>
+  </data>
+  <data name="You have already used this voucher" xml:space="preserve">
+    <value>Você já utilizou esse voucher</value>
+  </data>
+  <data name="You have been banned" xml:space="preserve">
+    <value>Você foi banido</value>
+  </data>
+  <data name="You have been banned for fraud, contact support for more information." xml:space="preserve">
+    <value>Você foi banido por fraude, entre em contato com o suporte para obter mais informações.</value>
+  </data>
+  <data name="You have been banned for spamming the bot" xml:space="preserve">
+    <value>Você foi banido por causar spam no bot</value>
+  </data>
+  <data name="You have redeemed many vouchers in the last 3 days" xml:space="preserve">
+    <value>Você resgatou muitos vouchers nos últimos 3 dias</value>
+  </data>
+  <data name="You haven't ordered any apps yet, click Receive SMS to make a quick purchase later" xml:space="preserve">
+    <value>Você ainda não solicitou nenhum app, clique em Receber SMS para fazer uma compra rápida posteriormente</value>
+  </data>
+  <data name="Your balance" xml:space="preserve">
+    <value>Seu Saldo</value>
+  </data>
+  <data name="Your number is below" xml:space="preserve">
+    <value>Seu número está logo abaixo</value>
+  </data>
+  <data name="Your order has been created" xml:space="preserve">
+    <value>Seu pedido foi criado</value>
+  </data>
+  <data name="Your SMS code has arrived" xml:space="preserve">
+    <value>Seu código sms chegou</value>
+  </data>
+</root>
